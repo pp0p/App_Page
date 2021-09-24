@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@media (min-width: 290px) and (max-width: 800px) {
+  nav h3 {
+    font-size: 1rem;
+  }
+  .hero_section, .app_des {
+    margin: 10px 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .features_app .allCard {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contect {
+    padding: 0;
+    width: 100%;
+  }
+  .contect form {
+    width: 100%;
+  }
+  .contect form input {
+    padding: 10px 5px;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  color: #6c63ff;
+  background-color: #433e74;
+}
+
+.navbar_contanior {
+  position: fixed;
+  height: 70px;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+  padding: 10px 0;
+  background-color: #433e74;
+  font-size: 1.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #343a40;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.navbar_contanior .logo {
+  font-size: 50px;
+}
+
+.navbar_contanior nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar_contanior nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar_contanior nav h3 {
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 7px;
+  margin: 0 20px;
+}
+
+.navbar_contanior nav h3:nth-child(1) {
+  border: 1px solid #6c63ff;
+  background-color: #6c63ff;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.navbar_contanior nav h3:nth-child(1):hover {
+  -webkit-transition: .6s;
+  transition: .6s;
+  background-color: #343a40;
+}
+
+.navbar_contanior nav h3:nth-child(2) {
+  border: 1px solid #6c63ff;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.navbar_contanior nav h3:nth-child(2) a:hover {
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #000;
+}
+
+.hero_section, .app_des {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 90px 40px;
+  height: 100%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.hero_section .des_app, .app_des .des_app, .app_des .text_des {
+  width: 320px;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.hero_section .des_app h3, .app_des .des_app h3, .app_des .text_des h3 {
+  margin: 10px 0;
+}
+
+.hero_section .img_app #app_svg, .app_des .img_app #app_svg {
+  height: 400px;
+  width: 100%;
+}
+
+.swiper {
+  margin: 40px 0;
+  width: 66%;
+  overflow: hidden;
+  background-color: #343a40;
+  height: 300px;
+}
+
+.swiper .swiper-slide {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.swiper .swiper-slide p {
+  width: 250px;
+}
+
+.swiper .swiper-slide .face {
+  margin: 10px 0;
+  height: 100px;
+  width: 100px;
+  background-image: url(../img/face.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.app_des {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 40px;
+}
+
+.app_des .app-img #app_img {
+  height: 500px;
+  width: 100%;
+}
+
+.features_app {
+  margin-top: 100px;
+}
+
+.features_app .info_features {
+  text-align: center;
+}
+
+.features_app .info_features h3 {
+  margin: 20px 0;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.features_app .allCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.features_app .allCard .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 20px 10px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  height: 300px;
+  width: 250px;
+  color: #fff;
+  background-color: #343a40;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.features_app .allCard .card:hover {
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+
+.features_app .allCard .card i {
+  font-size: 3rem;
+  color: #6c63ff;
+}
+
+.contect {
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 6px;
+  background-color: #343a40;
+  height: 100%;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 70%;
+}
+
+.contect h3 {
+  margin: 20px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.contect form label {
+  color: #fff;
+  text-align: left;
+}
+
+.contect form #submit {
+  background-color: #6c63ff;
+  width: 100%;
+}
+
+.contect form #submit:hover {
+  border: 1px solid #343a40;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #343a40;
+}
+
+footer .social_media a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+footer .social_media a:hover {
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: #6c63ff;
+}
+
+footer .social_media a i {
+  font-size: 30px;
+}
+/*# sourceMappingURL=main.css.map */
